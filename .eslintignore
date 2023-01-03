@@ -1,0 +1,11 @@
+
+node_modules/
+vendor/
+android/
+ios/
+.idea/
+.bundle/
+build/
+
+babel.config.js
+metro.config.js
