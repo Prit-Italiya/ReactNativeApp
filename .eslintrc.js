@@ -22,15 +22,7 @@ module.exports = {
             children: true,
           },
         ],
-        'import/extensions': [
-          'error',
-          'ignorePackages',
-          {
-            js: 'never',
-            mjs: 'never',
-            jsx: 'never',
-          },
-        ],
+        'import/extensions': 'off',
         'object-curly-spacing': 'error',
         'no-multiple-empty-lines': 'error',
         'react/jsx-indent': ['error', 2],
